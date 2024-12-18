@@ -9,6 +9,8 @@
     - Média acima de 7, passou de semestre;
 */
 
+
+
 const nota1 = 8.5;
 const nota2 = 6.5;
 const nota3 = 7.5;

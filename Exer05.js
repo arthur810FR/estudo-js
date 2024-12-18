@@ -9,6 +9,8 @@
     - Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
 */
 
+
+
 const precoProduto = 85;
 
 const formaDePagamento = 1;

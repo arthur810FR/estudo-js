@@ -5,7 +5,7 @@
  //2 - Gasto médio de combustível do carro por KM;
  //3 - Distância em KM da viagem;
 
-//Imprima no console o valor que será gasto para realizar esta viagem.
+//Imprima no console o valor que será gasto para realizar esta viagem!
 
 const precoCombustivel = 6.12;
 const kmPorLitros = 15;
