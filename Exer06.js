@@ -6,6 +6,4 @@ function verificarIdade(idade){
     }
 }
 
-
-
 verificarIdade(14);

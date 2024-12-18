@@ -9,18 +9,24 @@
     - Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
 */
 
+function aplicarDesconto(valor, desconto) {
+    return (valor - (valor * (desconto / 100)))
+}
 
+function aplicarJuros(valor, juros) {
+    return (valor - (valor * (juros / 100)))
+}
 
 const precoProduto = 85;
 
 const formaDePagamento = 1;
 
 if (formaDePagamento === 1) {
-    console.log(precoProduto - (precoProduto * 0.1))
+    console.log(aplicarDesconto(precoProduto, 10));
 } else if (formaDePagamento === 2){
-    console.log(precoProduto - (precoProduto * 0.15))
+    console.log(aplicarDesconto(precoProduto, 15));
 } else if (formaDePagamento === 3){
     console.log(precoProduto)
 } else {
-    console.log(precoProduto + (precoProduto * 0.1))
+    console.log(aplicarJuros(precoProduto, 10));
 }
