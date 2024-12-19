@@ -17,7 +17,6 @@ function aplicarJuros(valor, juros) {
     return (valor - (valor * (juros / 100)))
 }
 
-
 const precoProduto = 85;
 
 const formaDePagamento = 1;
