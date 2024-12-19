@@ -9,6 +9,7 @@
     - Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
 */
 
+<<<<<<< HEAD
 function aplicarDesconto(valor, desconto) {
     return (valor - (valor * (desconto / 100)))
 }
@@ -16,6 +17,9 @@ function aplicarDesconto(valor, desconto) {
 function aplicarJuros(valor, juros) {
     return (valor - (valor * (juros / 100)))
 }
+
+
+>>>>>>> edb5b9ad7b7d565a9e4bbfe2a29d22a3ed8d1eeb
 
 const precoProduto = 85;
 
